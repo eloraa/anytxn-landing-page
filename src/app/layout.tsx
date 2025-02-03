@@ -3,6 +3,7 @@ import { Inter, Montserrat } from 'next/font/google';
 import './globals.css';
 import { cls } from '@/lib';
 import { Header } from '@/components/header/header';
+import { Footer } from '@/components/footer/footer';
 
 const inter = Inter({
   variable: '--font-inter',
@@ -22,6 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

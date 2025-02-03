@@ -7,6 +7,7 @@ import { useState, useEffect } from 'react';
 import { Menu, ChevronDown, X } from 'lucide-react';
 import { cls } from '@/lib';
 import { Popover, PopoverContent, PopoverTrigger } from '../popover/popover';
+import { navlinks } from '@/lib/consts';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,35 +25,6 @@ export const Header = () => {
   ];
 
   const [selectedLanguage, setSelectedLanguage] = useState(languages[0]);
-
-  const navlinks = [
-    {
-      title: 'Solutions',
-      href: '#',
-      submenu: [
-        {
-          title: 'AnyCaas',
-          href: '#',
-        },
-        {
-          title: 'AnyBaas',
-          href: '#',
-        },
-        {
-          title: 'AnyPaas',
-          href: '#',
-        },
-      ],
-    },
-    {
-      title: 'Services',
-      href: '#',
-    },
-    {
-      title: 'About Us',
-      href: '#',
-    },
-  ];
 
   const toggleSubmenu = (index: number) => {
     setOpenSubmenuIndex(openSubmenuIndex === index ? null : index);
