@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { Inter, Montserrat } from 'next/font/google';
 import './globals.css';
 import { cls } from '@/lib';
+import { Header } from '@/components/header/header';
 
 const inter = Inter({
   variable: '--font-inter',
@@ -18,7 +19,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={cls(inter.className, inter.variable, montserrat.variable)}>
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }

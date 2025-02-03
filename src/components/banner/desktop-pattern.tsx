@@ -17,7 +17,7 @@ export const DesktopPattern = forwardRef<SVGSVGElement, PatternProps>(({ classNa
         element: backgroundRef.current,
         freq: 0.02,
         amt: 0.05,
-        direction: 'x',
+        direction: 'both',
         alwaysActive: true,
       });
 
@@ -25,7 +25,7 @@ export const DesktopPattern = forwardRef<SVGSVGElement, PatternProps>(({ classNa
         element: foregroundRef.current,
         freq: 0.03,
         amt: 0.08,
-        direction: 'x',
+        direction: 'both',
         invert: true,
         alwaysActive: true,
       });
