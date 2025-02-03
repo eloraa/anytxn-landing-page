@@ -19,7 +19,7 @@ export const Banner = () => {
 
             <div className="flex lg:flex-row flex-col lg:space-x-[16px] space-y-4 lg:space-y-0 w-full lg:mb-0 mb-md max-w-xl">
               <Button className="md:py-[15.5px] py-[14px] px-[42px] rounded-xs shadow-button-primary text-link text-white flex items-center justify-center space-x-[8px] rounded-md text-lg" asChild>
-                <Link href="/en/contact-us">
+                <Link href="/contact-us">
                   <span>Reach Out to Us</span>
                   <span>
                     <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
