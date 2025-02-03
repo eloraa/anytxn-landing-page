@@ -7,7 +7,7 @@ export const Info = () => {
       <section className="container mt-[62px]">
         <main className="grid md:grid-cols-2 grid-cols-1 md:gap-[15px] relative">
           <div className="md:space-y-sm space-y-xs">
-            <h6 className="lg:text-lg font-bold text-primary uppercase font-montserrat">POWERING THE FUTURE OF FINANCE</h6>
+            <h6 className="lg:text-lg font-bold text-primary uppercase font-montserrat tracking-wide">POWERING THE FUTURE OF FINANCE</h6>
             <h2 className="whitespace-pre-line font-montserrat text-4xl lg:text-6xl font-medium mt-4">Uncovering new ways to delight customers</h2>
 
             <div className="!my-[60px] md:hidden block relative h-fit lg:text-clip">
