@@ -33,3 +33,9 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .bg-clip-banner {
+    clip-path: polygon(67% 0, 100% 0, 100% 68%, 80% 100%, 0 100%, 32% 51%);
+  }
+}
